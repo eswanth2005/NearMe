@@ -42,6 +42,7 @@ Execute the programs and publish them.
     </style>
 </head>
 <script>
+    
     function coordinate(event)
     {
         let x =event.clientX;
