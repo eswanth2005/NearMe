@@ -41,17 +41,17 @@ Execute the programs and publish them.
         }
     </style>
 </head>
-<script>
+    <script>
     function coordinate(event){
         let x =event.clientX;
         let y=event.clientY;
         document.getElementById("X").value=x;
         document.getElementById("Y").value=y;
     }
-</script>
+    </script>
 <body>
-    <div>
-    <img src="static/Screenshot (5).png" width="600" height="230" usemap="#MapNew" onmousemove="coordinate(event)" />
+        <div>
+        <img src="static/Screenshot (5).png" width="600" height="230" usemap="#MapNew" onmousemove="coordinate(event)" />
     </div>
     <map name="MapNew" >
         
