@@ -26,21 +26,21 @@ Execute the programs and publish them.
 
 ## CODE
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
         
         img{
             margin-left: 20%;
             width: 800px;
             height: 400px;
         }
-    </style>
-</head>
+        </style>
+    </head>
     <script>
     function coordinate(event){
         let x =event.clientX;
@@ -49,9 +49,9 @@ Execute the programs and publish them.
         document.getElementById("Y").value=y;
     }
     </script>
-<body>
-        <div>
-        <img src="static/Screenshot (5).png" width="600" height="230" usemap="#MapNew" onmousemove="coordinate(event)" />
+    <body>
+    <div>
+    <img src="static/Screenshot (5).png" width="600" height="230" usemap="#MapNew" onmousemove="coordinate(event)" />
     </div>
     <map name="MapNew" >
         
@@ -65,8 +65,8 @@ Execute the programs and publish them.
     </map>   <br/>
     X-coordinate <input type="text" id="X"/> <br/>
     Y-coordinate<input type="text" id="Y"/> 
-</body>
-</html>
+    </body>
+    </html>
 
 
 ## OUTPUT
