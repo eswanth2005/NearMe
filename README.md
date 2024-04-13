@@ -50,9 +50,8 @@ Execute the programs and publish them.
     }
 </script>
 <body>
-    <div>
+    
     <img src="Screenshot (5).png" width="600" height="230" usemap="#MapNew" onmousemove="coordinate(event)" />
-    </div>
     <map name="MapNew" >
         
         <area shape="rect" coords="96,101,100,30" href="https://www.apolloartsandsciencecollegechennai.ac.in/courses.aspx" title="Appolo arts ands science"/>
