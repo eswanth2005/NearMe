@@ -42,7 +42,8 @@ Execute the programs and publish them.
     </style>
 </head>
 <script>
-    function coordinate(event){
+    function coordinate(event)
+    {
         let x =event.clientX;
         let y=event.clientY;
         document.getElementById("X").value=x;
